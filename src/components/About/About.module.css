@@ -20,7 +20,7 @@
     padding-right: 2px;
     text-align: center;
     font-size: 2rem;
-    padding: 1.2vh 1vw 3.5vh 3vw;
+    padding: 0vh 1vw 3.5vh 3vw;
 
 }
 
@@ -32,7 +32,7 @@
     text-align: center;
     font-size: 2rem;
     font-style: normal;
-    padding: 1.2vh 8vw 3.5vh 0vw;
+    padding: 0vh 8vw 3.5vh 0vw;
 }
 
 .para {
@@ -47,7 +47,7 @@
 }
 
 .button {
-    height: 8vh;
+    height: 12%;
     width: min-content;
     box-sizing: border-box;
     background: #316BFE;
@@ -55,8 +55,14 @@
     color: aliceblue;
     font-family: 'Inter';
     font-style: normal;
-    font-size: 0.9em;
+    font-size: 0.9rem;
     padding: 1vh 2vw 1vh 2vw;
     margin: 0.4vh 2vw .9vh 3vw;
 }
 
+.img{
+    height: 30vw;
+    width: 35vw;
+    float: right;
+    margin-right: 15%;
+}
