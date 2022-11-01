@@ -7,6 +7,7 @@
     background-color: white;
     align-items: center;
     padding: 2vw;
+    justify-content: space-around;
 }
 .heading{
     font-size: 2em;
@@ -19,12 +20,13 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-content: space-around;
   
     border: 3px solid;
     padding: 1vw 3vw;
     border-radius: 10px;
     font-weight: 500;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 .img{
   

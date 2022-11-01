@@ -1,29 +1,49 @@
-.sponsors
+.heading
 {
     position: relative;
 text-align: center;
 
-flex-direction: row;
+
+}
+.Sponsors{
+    position: relative;
+    display: flex;
+    /* flex-direction:row; */
+    align-items: center;
+    justify-items:center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+   
+   
+    
 }
 .cards{
     width: 200px;
     height: 200px;
     background: #fff;
     /* padding: 10vw 6vh ; */
-    border-radius: 50%;
-    box-shadow: 0 0 22px #3336;
+    border-radius: 5;
+    /* box-shadow: 0 0 22px #3336; */
     display: flex;
     flex-direction: column;
+    /* justify-items: center; */
+    align-items: center;
+    
+    
 }
-.cards caption {
+.caption {
     text-align: center;
+    font-size: 1em;
     
     opacity: 1;
     
 }
 .img{
-    width: 10%;
-    height: 10%;
+    width: 80%;
+    height: 80%;
+    background-size: contain;
+    align-items: center;
+    border-radius: 3vh;
 
     /* z-index: 10;*/
 }

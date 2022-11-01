@@ -5,12 +5,13 @@ function Sponsors()
 {
     return(
         <>
-        <div className={styles.sponsors}>
-            <h1>Sponsors</h1>
+        <div className={styles.heading}>
+            <h1>SPONSORS</h1>
+            <div className={styles.Sponsors}>
             <div className={styles.cards}>
             
                 <div class={styles.img}>
-                    <Image src={sponsorImg}/>
+                    <Image className={styles.img} src={sponsorImg}/>
                 </div>
                 <div class={styles.caption}>
                     <h3>Company 1</h3>
@@ -20,55 +21,57 @@ function Sponsors()
 
 
           
+                </div>
+                <div className={styles.cards}>
+            
+                <div class={styles.img}>
+                    <Image className={styles.img} src={sponsorImg}/>
+                </div>
+                <div class={styles.caption}>
+                    <h3>Company 1</h3>
+                    
+                    
+                </div>
 
+
+          
+                </div>
+                <div className={styles.cards}>
+            
+                <div class={styles.img}>
+                    <Image className={styles.img} src={sponsorImg}/>
+                </div>
+                <div class={styles.caption}>
+                    <h3>Company 1</h3>
+                    
+                    
+                </div>
+
+
+          
+                </div>
+                <div className={styles.cards}>
+            
+                <div class={styles.img}>
+                    <Image className={styles.img} src={sponsorImg}/>
+                </div>
+                <div class={styles.caption}>
+                    <h3>Company 1</h3>
+                    
+                    
+                </div>
+
+
+          
+                </div>
             </div>      
-            <div className={styles.cards}>
             
-            <div class={styles.img}>
-                <img src={sponsorImg}></img>
-            </div>
-            <div class={styles.caption}>
-                <h3>Company 1</h3>
-                
-                
-            </div>
-
-
-      
-
-        </div>  
-        <div className={styles.cards}>
             
-            <div class={styles.img}>
-                <img src={sponsorImg}></img>
-            </div>
-            <div class={styles.caption}>
-                <h3>Company 1</h3>
-                
-                
-            </div>
-
-
-      
-
-        </div>  
-        <div className={styles.cards}>
-            
-            <div class={styles.img}>
-                <img src={sponsorImg}/>
-            </div>
-            <div class={styles.caption}>
-                <h3>Company 1</h3>
-                
-                
-            </div>
-
-
       
 
         </div>   
         
-        </div>
+       
         </>
     );
 }
