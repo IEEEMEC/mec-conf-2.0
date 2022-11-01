@@ -1,4 +1,5 @@
 import styles from './CodeofConduct.module.css'
+import Image from 'next/image'
 import down from '../../assets/svg/download.svg'
 function CodeOfConduct()
 {
@@ -8,16 +9,12 @@ function CodeOfConduct()
         <div className={styles.heading}> CODE OF CONDUCT</div>
             <div className={styles.code}>
                <div>Download Code of Conduct for MEC.conf</div>
-               <div className='img'>
-               <img src={down}/> 
+               <div className={styles.img}>
+               <Image src={down} alt="download image"/> 
                </div>
                 
 
-            </div>
-        
-        
-        
-        
+            </div>      
         
         
         </div>

@@ -1,4 +1,5 @@
 import styles from './Sponsors.module.css'
+import Image from 'next/image'
 import sponsorImg from '../../assets/sponsors/tinker.jpg'
 function Sponsors()
 {
@@ -9,7 +10,7 @@ function Sponsors()
             <div className={styles.cards}>
             
                 <div class={styles.img}>
-                    <img src={sponsorImg}></img>
+                    <Image src={sponsorImg}/>
                 </div>
                 <div class={styles.caption}>
                     <h3>Company 1</h3>
