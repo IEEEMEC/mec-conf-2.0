@@ -14,7 +14,7 @@
     text-align: center;
     align-items: center;
     padding-bottom: 40vh;
-    
+    /* z-index: 2; */
     /* justify-content: space-around; */
 
 }
@@ -31,6 +31,11 @@
     font-size: 2rem;
     border-radius: 5em;
     padding: 3vh 3vw;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(184, 134, 95);
 }
 .ellipse18{
     position: relative;
