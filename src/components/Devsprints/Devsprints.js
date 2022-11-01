@@ -3,7 +3,11 @@ function Devsprints()
 {
     return(
         <>
-        <div className={styles.devsprints}>Devsprints</div>
+        <div className={styles.devsprints}>
+        <div>DEVSPRINTS</div>
+        <div className={styles.content}>Get ready to contribute to open source organisations with this one day devsprint!</div>
+
+        </div>
         </>
     );
 }

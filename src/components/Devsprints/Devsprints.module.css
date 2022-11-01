@@ -1,4 +1,24 @@
 .devsprints
 {
-    color: red;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    color:    rgba(49, 107, 254, 1);
+    background-color: rgba(24, 25, 38, 1);
+    font-weight: 700;
+    font-size: 2rem;
+    justify-content: space-around;
+    padding-top: 20vh;
+    padding-left: 2vw ;
+    padding-right: 2vw;
 }
+.content{
+    color: white;
+    font-weight: 500;
+    font-size: 1.25rem;
+    padding-top: 1vh;
+    padding-left: 2vw ;
+    padding-right: 2vw;
+    margin-bottom: 80vh;
+}
+
