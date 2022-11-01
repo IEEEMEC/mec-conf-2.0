@@ -1,4 +1,28 @@
 .codeofconduct
 {
-    color: red;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: white;
+    align-items: center;
+    padding: 2vw;
+}
+.heading{
+    
+    font-weight: 700;
+    padding: 1vw 1vw;
+}
+.code{
+    margin-top: 1vw;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 1vw 5vh; */
+    border: 3px solid;
+    padding: 1vw 3vw;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.img{
+    padding: 5px;
 }
