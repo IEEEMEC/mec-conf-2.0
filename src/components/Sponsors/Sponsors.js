@@ -4,8 +4,8 @@ import sponsorImg from "../../assets/sponsors/sponsor.svg";
 function Sponsors() {
   return (
     <>
-      <div className={styles.heading}>
-        <div className={styles.heading_text}>SPONSORS</div>
+      <div className={styles.sponsors_container}>
+        <div className={styles.heading}>SPONSORS</div>
         <div className={styles.sponsors}>
           <div className={styles.img}>
             <Image className={styles.img} src={sponsorImg} alt="" />

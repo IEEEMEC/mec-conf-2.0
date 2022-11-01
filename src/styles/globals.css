@@ -14,3 +14,15 @@ a {
 * {
   box-sizing: border-box;
 }
+body::-webkit-scrollbar {
+  width: 0.7em;
+}
+ 
+body::-webkit-scrollbar-track {
+  background-color: #181926;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #316BFE;
+  border-radius: 10px;
+}
