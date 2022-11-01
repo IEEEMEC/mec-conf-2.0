@@ -1,5 +1,6 @@
 // import styles from '../styles/Home.module.css'
 
+import Head from "next/head";
 import About from "../components/About/About";
 import AreYouReady from "../components/AreYouReady/AreYouReady";
 import Clubs from "../components/Clubs/Clubs";
@@ -18,6 +19,9 @@ import Workshops from "../components/Workshops/Workshops";
 export default function Home() {
   return (
     <>
+    <Head>
+      <title>MEC Conf. 2.0</title>
+    </Head>
       <Navbar />
       <Hero />
       <About />

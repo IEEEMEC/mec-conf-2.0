@@ -1,10 +1,10 @@
-.heading {
+.sponsors_container {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 5%;
 }
-.heading_text {
+.heading {
   font-size: 2em;
   padding: 1vw 1vw;
   font-weight: 700;
@@ -12,7 +12,6 @@
 .sponsors {
   display: flex;
   column-gap: 5rem;
-  row-gap: 2rem;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
