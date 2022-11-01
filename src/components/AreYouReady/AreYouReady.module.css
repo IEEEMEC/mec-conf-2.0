@@ -1,4 +1,42 @@
 .areyouready
 {
+   position: relative;
+    color: white;
+    background-color: rgba(24, 25, 38, 1);
+    padding-top: 20vh;
+    padding-left: 2vw ;
+    padding-right: 2vw;
+    font-weight: 700;
+}
+.ready{
+    display: flex;
+    flex-flow: column wrap;
     text-align: center;
+    align-items: center;
+    padding-bottom: 40vh;
+    
+    /* justify-content: space-around; */
+
+}
+.heading{
+    font-size:2rem ;
+}
+.content{
+    font-size: 3rem;
+    padding-bottom: 10vh;
+    
+}
+.button{
+    background-color: rgba(49, 107, 254, 1);
+    font-size: 2rem;
+    border-radius: 5em;
+    padding: 3vh 3vw;
+}
+.ellipse18{
+    position: relative;
+
+    z-index: -1;
+}
+.ellipse19{
+    z-index: -1;
 }
