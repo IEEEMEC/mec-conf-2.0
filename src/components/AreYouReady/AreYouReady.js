@@ -10,8 +10,8 @@ function AreYouReady()
     return(
         <>
         <div className={styles.areyouready}>
-            {/* <Image className={styles.ellipse18} src={ellipse18} alt="ellipse 18"/>
-            <Image className={styles.ellipse19 }src={ellipse19} alt="ellipse 19" /> */}
+            <Image className={styles.ellipse18} src={ellipse18} alt="ellipse 18"/>
+            <Image className={styles.ellipse19 }src={ellipse19} alt="ellipse 19" />
             <div className={styles.ready}>
             <div className={styles.heading}>
             Are You Ready

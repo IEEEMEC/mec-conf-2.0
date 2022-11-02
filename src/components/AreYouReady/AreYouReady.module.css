@@ -1,20 +1,21 @@
 .areyouready
 {
-   position: relative;
+   /* position: relative; */
     color: white;
     background-color: rgba(24, 25, 38, 1);
-    padding-top: 20vh;
-    padding-left: 2vw ;
-    padding-right: 2vw;
-    font-weight: 700;
+  
 }
 .ready{
     display: flex;
     flex-flow: column wrap;
     text-align: center;
     align-items: center;
+    padding-top: 20vh;
+    padding-left: 2vw ;
+    padding-right: 2vw;
+    font-weight: 700;
     padding-bottom: 40vh;
-    /* z-index: 2; */
+    z-index: 2;
     /* justify-content: space-around; */
 
 }
@@ -40,7 +41,7 @@
 .ellipse18{
     position: relative;
 
-    z-index: -1;
+    z-index:0;
 }
 .ellipse19{
     z-index: -1;
