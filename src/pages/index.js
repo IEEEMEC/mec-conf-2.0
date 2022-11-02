@@ -32,7 +32,7 @@ export default function Home() {
       <Sponsors />
       <Devsprints />
       <Timeline />
-      {/* <Clubs /> */}
+      <Clubs />
       <Faq />
       <Contact />
       <Footer />

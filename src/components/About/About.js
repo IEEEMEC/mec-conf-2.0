@@ -1,6 +1,6 @@
 import styles from "./About.module.css";
 import Image from "next/image";
-import down from "../../assets/about-image.jpg";
+import down from "../../assets/about/about-image.jpg";
 function About() {
   return (
     <>

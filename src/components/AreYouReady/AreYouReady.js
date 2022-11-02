@@ -1,10 +1,10 @@
 import styles from "./AreYouReady.module.css";
-import bottomleft from "../../assets/svg/bottom-left.svg";
-import bottomright from "../../assets/svg/bottom-right.svg";
-import centerright from "../../assets/svg/center-right.svg";
-import center from "../../assets/svg/center.svg";
-import topleft from "../../assets/svg/top-left.svg";
-import topright from "../../assets/svg/top-right.svg";
+import bottomleft from "../../assets/areyouready/bottom-left.svg";
+import bottomright from "../../assets/areyouready/bottom-right.svg";
+import centerright from "../../assets/areyouready/center-right.svg";
+import center from "../../assets/areyouready/center.svg";
+import topleft from "../../assets/areyouready/top-left.svg";
+import topright from "../../assets/areyouready/top-right.svg";
 import Image from "next/image";
 function AreYouReady() {
   return (

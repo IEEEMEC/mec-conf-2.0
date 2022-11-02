@@ -1,6 +1,6 @@
 import styles from "./CodeofConduct.module.css";
 import Image from "next/image";
-import down from "../../assets/svg/download.svg";
+import down from "../../assets/codeofconduct/download.svg";
 function CodeOfConduct() {
   return (
     <>

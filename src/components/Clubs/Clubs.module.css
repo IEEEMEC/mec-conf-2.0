@@ -1,41 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Inter&display=swap');
-.parentBox{
-    box-sizing: border-box;
-    position: relative;
+.parentBox {
+  box-sizing: border-box;
+  position: relative;
 }
-.clubs{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.clubs {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
-.clubs .Par{
-    font-family: 'Cute Font', cursive;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 44px;
+.clubs .Par {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
 
-    /* identical to box height */
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    margin: 10rem 0;
-    z-index: 10;
+  /* identical to box height */
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 10rem 0;
+  z-index: 10;
 }
-.styling{
-    position: absolute;
-    z-index: 1;
-    height: 85vh;
-    width: 100vw;
-    background: #181926;
-    background-repeat: no-repeat;
-    background-size: cover;
+.styling {
+  position: absolute;
+  z-index: 1;
+  height: 85vh;
+  width: 100vw;
+  background: #181926;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.clubCards{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    z-index: 10;
+.clubCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 10;
 }
