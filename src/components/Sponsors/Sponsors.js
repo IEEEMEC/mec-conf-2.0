@@ -13,7 +13,7 @@ function Sponsors() {
           <div className={styles.img}>
             <Image className={styles.img} src={sponsorImg} alt="" />
           </div>
-          <div class={styles.img}>
+          <div className={styles.img}>
             <Image className={styles.img} src={sponsorImg} alt="" />
           </div>
           <div className={styles.img}>
