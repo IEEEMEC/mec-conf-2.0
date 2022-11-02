@@ -1,0 +1,24 @@
+.box{
+    width: 361.7px;
+    height: 434.87px;
+    background: #FFFFFF;
+    box-shadow: -1px -4px 0px #316BFE, 1px 4px 0px #316BFE;
+    border-radius: 20px;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.icons{
+    padding: 2rem 0;
+}
+.box p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #000000;
+}
