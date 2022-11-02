@@ -1,0 +1,45 @@
+.box{
+    width: 361.7px;
+    height: 434.87px;
+    background: #FFFFFF;
+    box-shadow: -1px -4px 0px #316BFE, 1px 4px 0px #316BFE;
+    border-radius: 20px;
+    margin: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.iconBox{
+    background: #181926;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    width: 116px;
+    height: 139px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+.box p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+.rowElement1{
+    width: 100%;
+}
+.content{
+    max-width: 300px;
+}
+.icons{
+    width: 85%;
+    height: auto;
+}
