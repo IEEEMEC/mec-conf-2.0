@@ -20,7 +20,8 @@ function About() {
           </div>
           <div className={styles.buy_btn}>
             BUY
-            <br />
+            <div className={styles.break}><br/></div>
+            <div className={styles.space}> </div>
             TICKETS
           </div>
         </div>

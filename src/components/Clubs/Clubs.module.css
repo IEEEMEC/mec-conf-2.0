@@ -17,22 +17,69 @@
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  margin: 10rem 0;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
   z-index: 10;
 }
 .styling {
   position: absolute;
   z-index: 1;
   height: 85vh;
-  width: 100vw;
+  width: 100%;
   background: #181926;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .clubCards {
+  padding-left: 0.25%;
+  padding-right: 0.25%;
+  padding-top: 6%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   z-index: 10;
+}
+
+
+.bottomleft {
+  z-index: 2;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+.bottomright {
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.centerright {
+  z-index: 2;
+  position: absolute;
+  top: 10%;
+  right: 20%;
+}
+.centerleft {
+  z-index: 2;
+  position: absolute;
+  left: 20%;
+  top: 20%;
+}
+.topleft {
+  z-index: 2;
+  position: absolute;
+  left: 0;
+}
+.topright {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+@media (max-width:870px) {
+  .centerleft
+  {
+    display: none;
+  }
 }

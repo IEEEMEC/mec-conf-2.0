@@ -60,6 +60,12 @@
   width: 40vw;
   height: auto;
 }
+.break {
+  display:contents;
+}
+.space {
+  display: none;
+}
 @media (max-width: 900px) {
   .container {
     flex-direction: column;
@@ -75,6 +81,9 @@
     width: 100vw;
     align-items: center;
     text-align: center;
+  }
+  .buy_btn {
+    width: 168px;
   }
   .right_flex {
     width: 100vw;
@@ -96,9 +105,15 @@
     width: auto;
     height: 40vh;
   }
+  .break {
+    display: none;
+  }
+  .space {
+    display: block;
+    width: 6px;
+  }
 }
 @media (max-width: 500px) {
-
   .img {
     width: 80vw;
     height: auto;

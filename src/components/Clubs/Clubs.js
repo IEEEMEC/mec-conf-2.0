@@ -1,14 +1,26 @@
 import styles from "./Clubs.module.css";
 import { data } from "../../data/clubData";
-import bg from "../../assets/clubs/Group_9.svg";
+import bottomleft from "../../assets/clubs/bottomleft.svg";
+import bottomright from "../../assets/clubs/bottomright.svg";
+import centerleft from "../../assets/clubs/centerleft.svg";
+import centerright from "../../assets/clubs/centerright.svg";
+import topleft from "../../assets/clubs/topleft.svg";
+import topright from "../../assets/clubs/topright.svg";
 import Card from "./Card";
+import Image from "next/image";
 export default function Clubs() {
   return (
     <div className={styles.clubs}>
       <div
         className={styles.styling}
-        style={{ backgroundImage: `url(${bg.src})` }}
-      ></div>
+      >
+         <Image src={topleft} alt="" className={styles.topleft} />
+        <Image src={topright} alt="" className={styles.topright} />
+        <Image src={bottomleft} alt="" className={styles.bottomleft} />
+        <Image src={bottomright} alt="" className={styles.bottomright} />
+        <Image src={centerright} alt="" className={styles.centerright} />
+        <Image src={centerleft} alt="" className={styles.centerleft} />
+      </div>
       <p className={styles.Par}>Clubs</p>
       <div className={styles.clubCards}>
         {data.map((x, id) => (
