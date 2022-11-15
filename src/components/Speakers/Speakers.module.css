@@ -22,7 +22,7 @@
   padding-top: 5rem;
 }
 .speakers_left {
-  width:100px;
+  width: 100px;
   height: 624px;
   background-color: #316bfe;
 }
@@ -52,12 +52,19 @@
   align-items: center;
   justify-content: center;
 }
-@media(max-width:768px)
-{
-    .speakers_left{
-        display: none;
-    }
-    .speakers_right {
-        display: none;
-    }
+.speaker_name {
+  font-weight: 500;
+  padding-top: 1rem;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+@media (max-width: 768px) {
+  .speakers_left {
+    display: none;
+  }
+  .speakers_right {
+    display: none;
+  }
 }
