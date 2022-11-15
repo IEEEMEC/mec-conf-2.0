@@ -1,4 +1,41 @@
-.navbar
-{
-    color: red;
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1rem;
+  z-index: 9999;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
+  align-items: center;
+}
+.navbar_offset {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color:#181926 ;
+  padding: 1rem;
+  align-items: center;
+  z-index: 9999;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
+  align-items: center;
+}
+.navbar_item {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  cursor: pointer;
+  color: #ffffff;
+}
+.navbar_item_active {
+  background: #316bfe;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
 }

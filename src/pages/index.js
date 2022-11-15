@@ -1,5 +1,4 @@
-// import styles from '../styles/Home.module.css'
-
+import styles from "../styles/Home.module.css";
 import Head from "next/head";
 import About from "../components/About/About";
 import AreYouReady from "../components/AreYouReady/AreYouReady";
@@ -19,11 +18,13 @@ import Workshops from "../components/Workshops/Workshops";
 export default function Home() {
   return (
     <>
-    <Head>
-      <title>MEC Conf. 2.0</title>
-    </Head>
-      <Navbar />
-      <Hero />
+      <Head>
+        <title>MEC Conf. 2.0</title>
+      </Head>
+      <div className={styles.landing}>
+        <Navbar />
+        <Hero />
+      </div>
       <About />
       <Speakers />
       <Workshops />

@@ -3,7 +3,9 @@ function Hero()
 {
     return(
         <>
+        <section id="home">
         <div className={styles.hero}>Hero</div>
+        </section>
         </>
     );
 }

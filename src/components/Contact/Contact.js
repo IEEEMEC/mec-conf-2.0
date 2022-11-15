@@ -4,14 +4,16 @@ import contactData from "../../data/contactData";
 function Contact() {
   return (
     <>
-      <div className={styles.contact_container}>
-        <div className={styles.contact}>CONTACT</div>
-        <div className={styles.contact_cards}> 
-          {contactData.map((contact) => {
-            return <ContactCard key={contact.id} id={contact.id} />;
-          })}
+      <section id="contact">
+        <div className={styles.contact_container}>
+          <div className={styles.contact}>CONTACT</div>
+          <div className={styles.contact_cards}>
+            {contactData.map((contact) => {
+              return <ContactCard key={contact.id} id={contact.id} />;
+            })}
+          </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

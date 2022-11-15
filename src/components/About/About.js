@@ -4,6 +4,7 @@ import down from "../../assets/about/about-image.jpg";
 function About() {
   return (
     <>
+    <section id="about">
       <div className={styles.container}>
         <div className={styles.left_flex}>
           <div className={styles.heading}>
@@ -31,6 +32,7 @@ function About() {
           </div>
         </div>
       </div>
+      </section>
     </>
   );
 }

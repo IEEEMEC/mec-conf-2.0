@@ -4,6 +4,7 @@ import styles from "./Speakers.module.css";
 function Speakers() {
   return (
     <>
+    <section id="speakers">
       <div className={styles.speakers_container}>
         <div className={styles.speakers}>
           EVENT <span className={styles.speakers_1}>SPEAKERS</span>
@@ -25,6 +26,7 @@ function Speakers() {
           <div className={styles.speakers_right}></div>
         </div>
       </div>
+      </section>
     </>
   );
 }

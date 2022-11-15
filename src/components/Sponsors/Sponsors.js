@@ -4,6 +4,7 @@ import sponsorImg from "../../assets/sponsors/sponsor.svg";
 function Sponsors() {
   return (
     <>
+    <section id="sponsors">
       <div className={styles.sponsors_container}>
         <div className={styles.heading}>SPONSORS</div>
         <div className={styles.sponsors}>
@@ -21,6 +22,7 @@ function Sponsors() {
           </div>
         </div>
       </div>
+      </section>
     </>
   );
 }

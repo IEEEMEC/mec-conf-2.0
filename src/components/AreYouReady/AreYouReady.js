@@ -9,6 +9,7 @@ import Image from "next/image";
 function AreYouReady() {
   return (
     <>
+    <section id="registration">
       <div className={styles.areyouready}>
         <Image src={topleft} alt="" className={styles.topleft} />
         <Image src={topright} alt="" className={styles.topright} />
@@ -28,6 +29,7 @@ function AreYouReady() {
         <Image src={centerright} alt="" className={styles.centerright} />
         <Image src={center} alt="" className={styles.center} />
       </div>
+      </section>
     </>
   );
 }

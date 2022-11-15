@@ -1,0 +1,6 @@
+.landing {
+  background: url("../assets/landing/background.svg") no-repeat;
+  background-color: #181926;
+  background-size: cover;
+  height: 100vh;
+}

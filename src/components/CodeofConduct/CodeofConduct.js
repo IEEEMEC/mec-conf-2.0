@@ -4,6 +4,7 @@ import down from "../../assets/codeofconduct/download.svg";
 function CodeOfConduct() {
   return (
     <>
+    <section id="codeofconduct">
       <div className={styles.codeofconduct_container}>
         <div className={styles.heading}> CODE OF CONDUCT</div>
         <div className={styles.code}>
@@ -13,6 +14,7 @@ function CodeOfConduct() {
           </div>
         </div>
       </div>
+      </section>
     </>
   );
 }

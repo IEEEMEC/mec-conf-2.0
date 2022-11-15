@@ -2,6 +2,7 @@ import styles from "./Faq.module.css";
 function Faq() {
   return (
     <>
+    <section id="faq">
       <div className={styles.faq_container}>
         <div className={styles.faq}>FAQ</div>
         <div className={styles.faq_content}>
@@ -14,6 +15,7 @@ function Faq() {
           culpa qui officia deserunt mollit anim id est laborum.
         </div>
       </div>
+      </section>
     </>
   );
 }
