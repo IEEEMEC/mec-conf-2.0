@@ -1,4 +1,96 @@
-.workshops
-{
-    color: red;
+.card {
+  width: 262px;
+  height: 315px;
+  background-color: #316bfe;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+}
+.workshops_container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-top: 6rem;
+  padding-bottom: 15rem;
+  padding-left: 5%;
+  padding-right: 5%;
+  align-items: center;
+  background-color: #181926;
+}
+.workshops {
+  color: #316bfe;
+  font-weight: 700;
+  font-size: 36px;
+  z-index: 2;
+  line-height: 44px;
+  text-align: center;
+}
+.workshops_1 {
+  color: white;
+}
+.cards {
+  padding-top: 6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6rem;
+  z-index: 2;
+}
+.lefttop {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+.leftbottom {
+  position: absolute;
+  left: 0;
+  bottom: 8%;
+  z-index: 1;
+}
+.righttop {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+.rightbottom {
+  position: absolute;
+  right: 22%;
+  bottom: 5%;
+  z-index: 1;
+}
+.rightcenter {
+  position: absolute;
+  right: 25%;
+  top: 40%;
+  z-index: 1;
+}
+
+@media (max-width:620px) {
+    .lefttop {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1;
+      }
+      .leftbottom {
+        display: none;
+      }
+      .righttop {
+        display: none;
+      }
+      .rightbottom {
+        position: absolute;
+        right: 0;
+        bottom: 5%;
+        z-index: 1;
+      }
+      .rightcenter {
+        position: absolute;
+        left: 0;
+        top: 40%;
+        z-index: 1;
+      }
 }
