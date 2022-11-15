@@ -44,9 +44,14 @@
   line-height: 24px;
   cursor: pointer;
   text-align: center;
+  transition-duration: 0.4s;
   height: 78px;
   justify-content: center;
   align-items: center;
+}
+.buy_btn:hover {
+  background-color: rgb(184, 134, 95);
+  z-index: 4;
 }
 .img_wrapper {
   display: flex;
@@ -61,7 +66,7 @@
   height: auto;
 }
 .break {
-  display:contents;
+  display: contents;
 }
 .space {
   display: none;
