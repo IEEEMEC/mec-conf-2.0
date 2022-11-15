@@ -1,12 +1,17 @@
 .hero {
   display: flex;
   height: 100vh;
+  padding: 6rem;
   flex-direction: column;
   pointer-events: none;
   justify-content: center;
   gap: 2rem;
   align-items: center;
   color: red;
+}
+.logos_wrapper
+{
+    margin-top: 6rem;
 }
 .hero_content {
   display: flex;

@@ -3,7 +3,6 @@
   flex-direction: row;
   justify-content: space-evenly;
   padding: 1rem;
-  z-index: 9999;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%;
@@ -13,7 +12,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  background-color:#181926 ;
+  background-color: #181926;
   padding: 1rem;
   align-items: center;
   z-index: 9999;
@@ -38,4 +37,117 @@
   font-size: 16px;
   line-height: 19px;
   color: #ffffff;
+}
+.hamburger {
+  font-size: 1.9rem;
+  color: white;
+}
+.nav__mob {
+  display: none;
+  width: 100%;
+  position: fixed;
+}
+.nav__mob_1 {
+  display: none;
+  width: 100%;
+  position: fixed;
+  background-color: #181926;
+}
+.nav__mob_container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+
+.nav__drawer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 330px;
+  padding: 1.5rem;
+  background-color: #181926;
+}
+
+.nav__drawer_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar_items_mob {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2rem;
+  padding-top: 3rem;
+  z-index: 9;
+}
+
+.nav_item_mob {
+  cursor: pointer;
+  text-decoration: none;
+  color: #316bfe;
+  font-size: 21px;
+  font-weight: 400;
+}
+.title {
+  padding-left: 20px;
+  font-weight: 700;
+  padding-top: 10px;
+  font-size: 25px;
+  color: #316bfe;
+  cursor: pointer;
+}
+.title_mob {
+  font-weight: 700;
+  font-size: 25px;
+  color: #316bfe;
+  cursor: pointer;
+}
+.title_mob_1 {
+  padding-left: 9%;
+  font-weight: 700;
+  font-size: 25px;
+  justify-content: center;
+  color: #316bfe;
+  cursor: pointer;
+}
+.nav_btn {
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 50px;
+  z-index: 999;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #316bfe;
+  padding-left: auto;
+}
+
+@media (max-width: 900px) {
+  .navbar {
+    display: none;
+  }
+  .navbar_offset {
+    display: none;
+  }
+  .nav__mob {
+    display: block;
+    z-index: 14;
+  }
+  .nav__mob_1 {
+    display: block;
+    z-index: 14;
+  }
 }
