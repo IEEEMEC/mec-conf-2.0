@@ -135,7 +135,7 @@
   padding-left: auto;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 942px) {
   .navbar {
     display: none;
   }
@@ -150,4 +150,15 @@
     display: block;
     z-index: 14;
   }
+}
+@media (min-width:942px) and (max-width:1060px) {
+  .navbar_item {
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .navbar_item_active {
+    font-size: 13px;
+    line-height: 15px;
+  }
+  
 }

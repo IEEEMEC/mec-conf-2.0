@@ -38,6 +38,25 @@ function Hero() {
             </div>
           </div>
         </div>
+        <div className={styles.hero_mob}>
+          <div className={styles.logos_wrapper_mob}>
+            <Image src={logos} alt="logos" className={styles.logos_mob} />
+          </div>
+          <div className={styles.hero_content_mob}>
+            <div className={styles.hero_center_mob}>
+              <div className={styles.center_text}>PRESENTS</div>
+              <div className={styles.logo_mob}>
+                <Image src={logo} alt="" className={styles.logo_mob} />
+              </div>
+            </div>
+            <div className={styles.hero_left_mob}>
+              <div className={styles.date_mob}>26 | 27 - NOV 2022</div>
+            </div>
+            <div className={styles.hero_right_mob}>
+              <div className={styles.tickets_mob}>BUY TICKETS</div>
+            </div>
+          </div>
+        </div>
       </section>
     </>
   );
