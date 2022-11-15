@@ -37,7 +37,6 @@ function Navbar() {
         <Link
           to="about"
           onClick={() => {
-            setActive("");
             setActive("about");
           }}
           className={
