@@ -1,7 +1,8 @@
 .speakers_container {
   display: flex;
   flex-direction: column;
-  padding-top: 6rem;
+  padding-top: 8rem;
+  min-height: 100vh;
   padding-bottom: 6rem;
 }
 .speakers {

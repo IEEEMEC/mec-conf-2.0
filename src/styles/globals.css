@@ -27,3 +27,13 @@ body::-webkit-scrollbar-thumb {
   background-color: #316BFE;
   border-radius: 10px;
 }
+.navbar_item_active {
+  background: #316bfe;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}

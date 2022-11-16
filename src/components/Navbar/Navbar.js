@@ -31,139 +31,110 @@ function Navbar() {
       <div className={colorChange ? styles.navbar_offset : styles.navbar}>
         <Link
           to="home"
-          onClick={() => {
-            setActive("home");
-          }}
           spy={true}
+          activeClass="navbar_item_active"
           smooth={true}
           offset={0}
           duration={500}
           className={
-            active === "home" ? styles.navbar_item_active : styles.navbar_item
+          styles.navbar_item
           }
         >
           HOME
         </Link>
         <Link
           to="about"
-          onClick={() => {
-            setActive("about");
-          }}
+          activeClass="navbar_item_active"
           className={
-            active === "about" ? styles.navbar_item_active : styles.navbar_item
+            styles.navbar_item
           }
           spy={true}
           smooth={true}
-          offset={-80}
+          offset={0}
           duration={500}
         >
           ABOUT
         </Link>
         <Link
           to="speakers"
-          onClick={() => {
-            setActive("speakers");
-          }}
           spy={true}
           smooth={true}
-          offset={-80}
+          offset={0}
           duration={500}
+          activeClass="navbar_item_active"
           className={
-            active === "speakers"
-              ? styles.navbar_item_active
-              : styles.navbar_item
+            styles.navbar_item
           }
         >
           SPEAKERS
         </Link>
         <Link
           to="codeofconduct"
-          onClick={() => {
-            setActive("codeofconduct");
-          }}
           spy={true}
           smooth={true}
-          offset={-80}
+          offset={-50}
           duration={500}
+          activeClass="navbar_item_active"
           className={
-            active === "codeofconduct"
-              ? styles.navbar_item_active
-              : styles.navbar_item
+            styles.navbar_item
           }
         >
           CODE OF CONDUCT
         </Link>
         <Link
           to="registration"
-          onClick={() => {
-            setActive("registration");
-          }}
           spy={true}
           smooth={true}
-          offset={-80}
+          offset={0}
           duration={500}
+          activeClass="navbar_item_active"
           className={
-            active === "registration"
-              ? styles.navbar_item_active
-              : styles.navbar_item
+            styles.navbar_item
           }
         >
           REGISTRATION
         </Link>
         <Link
           to="sponsors"
-          onClick={() => {
-            setActive("sponsors");
-          }}
           spy={true}
           smooth={true}
-          offset={-80}
+          offset={0}
           duration={500}
+          activeClass="navbar_item_active"
           className={
-            active === "sponsors"
-              ? styles.navbar_item_active
-              : styles.navbar_item
+            styles.navbar_item
           }
         >
           SPONSORS
         </Link>
         <Link
           to="faq"
-          onClick={() => {
-            setActive("faq");
-          }}
           spy={true}
           smooth={true}
           offset={-80}
           duration={500}
+          activeClass="navbar_item_active"
           className={
-            active === "faq" ? styles.navbar_item_active : styles.navbar_item
+            styles.navbar_item
           }
         >
           FAQ
         </Link>
         <Link
           to="contact"
-          onClick={() => {
-            setActive("contact");
-          }}
           spy={true}
           smooth={true}
           offset={-80}
           duration={500}
+          activeClass="navbar_item_active"
           className={
-            active === "contact"
-              ? styles.navbar_item_active
-              : styles.navbar_item
+            styles.navbar_item
           }
         >
           CONTACT
         </Link>
         <Link
           to="home"
-          onClick={() => {
-            setActive("home");
-          }}
           spy={true}
           smooth={true}
           offset={0}
@@ -209,17 +180,15 @@ function Navbar() {
               <Link
                 to="home"
                 onClick={() => {
-                  setActive("home");
                   handleDrawerClose();
                 }}
                 spy={true}
                 smooth={true}
                 offset={0}
                 duration={500}
+                activeClass="navbar_item_active"
                 className={
-                  active === "home"
-                    ? styles.navbar_item_active
-                    : styles.navbar_item
+                  styles.navbar_item
                 }
               >
                 HOME
@@ -227,35 +196,31 @@ function Navbar() {
               <Link
                 to="about"
                 onClick={() => {
-                  setActive("about");
                   handleDrawerClose();
                 }}
                 className={
-                  active === "about"
-                    ? styles.navbar_item_active
-                    : styles.navbar_item
+                  styles.navbar_item
                 }
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={-70}
                 duration={500}
+                activeClass="navbar_item_active"
               >
                 ABOUT
               </Link>
               <Link
                 to="speakers"
                 onClick={() => {
-                  setActive("speakers");
                   handleDrawerClose();
                 }}
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={-70}
                 duration={500}
+                activeClass="navbar_item_active"
                 className={
-                  active === "speakers"
-                    ? styles.navbar_item_active
-                    : styles.navbar_item
+                  styles.navbar_item
                 }
               >
                 SPEAKERS
@@ -263,17 +228,15 @@ function Navbar() {
               <Link
                 to="codeofconduct"
                 onClick={() => {
-                  setActive("codeofconduct");
                   handleDrawerClose();
                 }}
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={-70}
                 duration={500}
+                activeClass="navbar_item_active"
                 className={
-                  active === "codeofconduct"
-                    ? styles.navbar_item_active
-                    : styles.navbar_item
+                  styles.navbar_item
                 }
               >
                 CODE OF CONDUCT
@@ -281,17 +244,15 @@ function Navbar() {
               <Link
                 to="registration"
                 onClick={() => {
-                  setActive("registration");
                   handleDrawerClose();
                 }}
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={-70}
                 duration={500}
+                activeClass="navbar_item_active"
                 className={
-                  active === "registration"
-                    ? styles.navbar_item_active
-                    : styles.navbar_item
+                  styles.navbar_item
                 }
               >
                 REGISTRATION
@@ -299,17 +260,15 @@ function Navbar() {
               <Link
                 to="sponsors"
                 onClick={() => {
-                  setActive("sponsors");
                   handleDrawerClose();
                 }}
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={-70}
                 duration={500}
+                activeClass="navbar_item_active"
                 className={
-                  active === "sponsors"
-                    ? styles.navbar_item_active
-                    : styles.navbar_item
+                  styles.navbar_item
                 }
               >
                 SPONSORS
@@ -317,17 +276,15 @@ function Navbar() {
               <Link
                 to="faq"
                 onClick={() => {
-                  setActive("faq");
                   handleDrawerClose();
                 }}
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={-70}
                 duration={500}
+                activeClass="navbar_item_active"
                 className={
-                  active === "faq"
-                    ? styles.navbar_item_active
-                    : styles.navbar_item
+                  styles.navbar_item
                 }
               >
                 FAQ
@@ -335,17 +292,15 @@ function Navbar() {
               <Link
                 to="contact"
                 onClick={() => {
-                  setActive("contact");
                   handleDrawerClose();
                 }}
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={-70}
                 duration={500}
+                activeClass="navbar_item_active"
                 className={
-                  active === "contact"
-                    ? styles.navbar_item_active
-                    : styles.navbar_item
+                  styles.navbar_item
                 }
               >
                 CONTACT
@@ -355,7 +310,6 @@ function Navbar() {
           <Link
             to="home"
             onClick={() => {
-              setActive("home");
               handleDrawerClose();
             }}
             spy={true}
