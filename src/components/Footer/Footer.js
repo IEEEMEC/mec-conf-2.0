@@ -8,10 +8,10 @@ function Footer() {
     <>
       <div className={styles.footer_container}>
         <div className={styles.social_icons}> 
-            <FaFacebook size={40} color="white"/>
-            <FaInstagram size={40} color="white"/>
-            <FaLinkedin size={40} color="white"/>
-            <AiFillTwitterCircle size={40} color="white"/>
+            <FaFacebook size={40} color="white" cursor={"pointer"}/>
+            <FaInstagram size={40} color="white" cursor={"pointer"}/>
+            <FaLinkedin size={40} color="white" cursor={"pointer"}/>
+            <AiFillTwitterCircle size={40} color="white" cursor={"pointer"}/>
         </div>
         <Image src={logo} className={styles.logo} alt="" />
       </div>
