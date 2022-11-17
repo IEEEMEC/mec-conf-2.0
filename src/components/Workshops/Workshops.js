@@ -9,6 +9,7 @@ import rightbottom from "../../assets/workshops/rightbottom.svg";
 function Workshops() {
   return (
     <>
+    <section id="workshops">
       <div className={styles.workshops_container}>
         
         <div className={styles.workshops}>
@@ -28,6 +29,7 @@ function Workshops() {
         <Image src={rightcenter} alt="" className={styles.rightcenter} />
         <Image src={rightbottom} alt="" className={styles.rightbottom} />
       </div>
+      </section>
     </>
   );
 }

@@ -5,6 +5,7 @@
   text-align: center;
   row-gap: 3rem;
   padding: 6rem;
+  padding-top: 8rem;
   justify-content: center;
 }
 .heading {
@@ -36,6 +37,8 @@
 {
   .codeofconduct_container {
     padding: 3rem;
+    padding-top: 8rem;
+    padding-bottom: 6rem;
   }
  
 }

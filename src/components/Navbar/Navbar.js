@@ -69,10 +69,23 @@ function Navbar() {
           SPEAKERS
         </Link>
         <Link
+          to="workshops"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+          activeClass="navbar_item_active"
+          className={
+            styles.navbar_item
+          }
+        >
+          WORKSHOPS
+        </Link>
+        <Link
           to="codeofconduct"
           spy={true}
           smooth={true}
-          offset={-50}
+          offset={0}
           duration={500}
           activeClass="navbar_item_active"
           className={
@@ -108,10 +121,23 @@ function Navbar() {
           SPONSORS
         </Link>
         <Link
+          to="clubs"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+          activeClass="navbar_item_active"
+          className={
+            styles.navbar_item
+          }
+        >
+          CLUBS
+        </Link>
+        <Link
           to="faq"
           spy={true}
           smooth={true}
-          offset={-80}
+          offset={0}
           duration={500}
           activeClass="navbar_item_active"
           className={
@@ -124,7 +150,7 @@ function Navbar() {
           to="contact"
           spy={true}
           smooth={true}
-          offset={-80}
+          offset={0}
           duration={500}
           activeClass="navbar_item_active"
           className={
@@ -203,7 +229,7 @@ function Navbar() {
                 }
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={0}
                 duration={500}
                 activeClass="navbar_item_active"
               >
@@ -216,7 +242,7 @@ function Navbar() {
                 }}
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={0}
                 duration={500}
                 activeClass="navbar_item_active"
                 className={
@@ -226,13 +252,29 @@ function Navbar() {
                 SPEAKERS
               </Link>
               <Link
+                to="workshops"
+                onClick={() => {
+                  handleDrawerClose();
+                }}
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+                activeClass="navbar_item_active"
+                className={
+                  styles.navbar_item
+                }
+              >
+                WORKSHOPS
+              </Link>
+              <Link
                 to="codeofconduct"
                 onClick={() => {
                   handleDrawerClose();
                 }}
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={0}
                 duration={500}
                 activeClass="navbar_item_active"
                 className={
@@ -248,7 +290,7 @@ function Navbar() {
                 }}
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={0}
                 duration={500}
                 activeClass="navbar_item_active"
                 className={
@@ -264,7 +306,7 @@ function Navbar() {
                 }}
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={0}
                 duration={500}
                 activeClass="navbar_item_active"
                 className={
@@ -274,13 +316,29 @@ function Navbar() {
                 SPONSORS
               </Link>
               <Link
+                to="clubs"
+                onClick={() => {
+                  handleDrawerClose();
+                }}
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+                activeClass="navbar_item_active"
+                className={
+                  styles.navbar_item
+                }
+              >
+                CLUBS
+              </Link>
+              <Link
                 to="faq"
                 onClick={() => {
                   handleDrawerClose();
                 }}
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={0}
                 duration={500}
                 activeClass="navbar_item_active"
                 className={
@@ -296,7 +354,7 @@ function Navbar() {
                 }}
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={0}
                 duration={500}
                 activeClass="navbar_item_active"
                 className={

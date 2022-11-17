@@ -31,7 +31,7 @@ export default function Home() {
       <CodeOfConduct />
       <AreYouReady />
       <Sponsors />
-      <Devsprints />
+      {/* <Devsprints /> */}
       <Timeline />
       <Clubs />
       <Faq />

@@ -10,6 +10,8 @@ import Card from "./Card";
 import Image from "next/image";
 export default function Clubs() {
   return (
+    <>
+    <section id="clubs">
     <div className={styles.clubs}>
       <div
         className={styles.styling}
@@ -28,5 +30,7 @@ export default function Clubs() {
         ))}
       </div>
     </div>
+    </section>
+    </>
   );
 }
