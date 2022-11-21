@@ -5,7 +5,7 @@ function Speakers() {
   return (
     <>
     <section id="speakers">
-      <div className={styles.speakers_container}>
+      <div className={styles.speakers_container} data-aos="fade-down">
         <div className={styles.speakers}>
           EVENT <span className={styles.speakers_1}>SPEAKERS</span>
         </div>

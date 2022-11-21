@@ -1,12 +1,13 @@
 import styles from "./About.module.css";
 import Image from "next/image";
 import down from "../../assets/about/about-image.jpg";
+
 function About() {
   return (
     <>
     <section id="about">
       <div className={styles.container}>
-        <div className={styles.left_flex}>
+        <div className={styles.left_flex} data-aos="fade-right">
           <div className={styles.heading}>
             ABOUT <span className={styles.heading_1}>MEC.CONF</span>
           </div>
@@ -26,7 +27,7 @@ function About() {
             TICKETS
           </div>
         </div>
-        <div className={styles.right_flex}>
+        <div className={styles.right_flex} data-aos="fade-left">
           <div className={styles.img_wrapper}>
             <Image src={down} alt="" className={styles.img} />
           </div>

@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "./Card.module.css";
 export default function Card(props) {
   return (
-    <div className={styles.box}>
+    <div className={styles.box} data-aos="fade-up">
       <div className={styles.rowElement1}>
         <div className={styles.iconBox}>
           <Image
