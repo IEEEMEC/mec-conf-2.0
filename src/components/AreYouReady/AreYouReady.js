@@ -17,14 +17,14 @@ function AreYouReady() {
         <Image src={bottomright} alt="" className={styles.bottomright} />
 
         <div className={styles.ready}>
-          <div className={styles.heading}>ARE YOU READY ?</div>
-          <div className={styles.content}>
+          <div className={styles.heading} data-aos="fade-down">ARE YOU READY ?</div>
+          <div className={styles.content} data-aos="zoom-in">
             Get Early Access to
             <br />
             MEC.conf
           </div>
 
-          <div className={styles.button}>Buy Tickets</div>
+          <div className={styles.button} data-aos="fade-up">Buy Tickets</div>
         </div>
         <Image src={centerright} alt="" className={styles.centerright} />
         <Image src={center} alt="" className={styles.center} />

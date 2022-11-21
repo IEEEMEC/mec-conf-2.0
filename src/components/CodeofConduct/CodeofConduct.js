@@ -6,8 +6,8 @@ function CodeOfConduct() {
     <>
     <section id="codeofconduct">
       <div className={styles.codeofconduct_container}>
-        <div className={styles.heading}> CODE OF CONDUCT</div>
-        <div className={styles.code}>
+        <div className={styles.heading} data-aos="fade-down"> CODE OF CONDUCT</div>
+        <div className={styles.code} data-aos="fade-up">
           <div>Download Code of Conduct for MEC.conf</div>
           <div className={styles.img}>
             <Image src={down} alt="download image" />
