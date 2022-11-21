@@ -1,6 +1,14 @@
 import styles from './Timeline.module.css'
+import React,{useEffect, useState} from 'react';
 function Timeline()
 {
+    const [width, setWidth] = useState(0);
+    useEffect(()=>{
+      addEventListener("resize", ()=>(setWidth(window.innerWidth)));
+    })
+    useEffect(()=>{
+      setWidth(window.innerWidth);
+    })
     return(
         <>
             <div className={styles.timeline_heading}> Timeline</div>
@@ -12,7 +20,7 @@ function Timeline()
                         </div>
                     </li>
                     <li class="in-view">
-                        <div data-aos="fade-right">
+                        <div data-aos={width>600? "fade-right": "fade-left"}>
                             Proin quam velit, efficitur vel neque vitae, rhoncus commodo mi. Suspendisse finibus mauris et bibendum molestie. Aenean ex augue, varius et pulvinar in, pretium non nisi.
                         </div>
                     </li>
@@ -22,7 +30,7 @@ function Timeline()
                         </div>
                     </li>
                     <li>
-                        <div data-aos="fade-right">
+                        <div data-aos={width>600? "fade-right": "fade-left"}>
                             In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
                         </div>
                     </li>
@@ -32,7 +40,7 @@ function Timeline()
                         </div>
                     </li>
                     <li>
-                        <div data-aos="fade-right">
+                        <div data-aos={width>600? "fade-right": "fade-left"}>
                             In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
                         </div>
                     </li>
