@@ -4,8 +4,8 @@ function Faq() {
     <>
     <section id="faq">
       <div className={styles.faq_container}>
-        <div className={styles.faq}>FAQ</div>
-        <div className={styles.faq_content}>
+        <div className={styles.faq} data-aos="fade-down">FAQ</div>
+        <div className={styles.faq_content} data-aos="fade-up">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut

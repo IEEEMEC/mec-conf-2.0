@@ -23,7 +23,7 @@ export default function Clubs() {
         <Image src={centerright} alt="" className={styles.centerright} />
         <Image src={centerleft} alt="" className={styles.centerleft} />
       </div>
-      <p className={styles.Par}>Clubs</p>
+      <p className={styles.Par} data-aos="fade-down">Clubs</p>
       <div className={styles.clubCards}>
         {data.map((x, id) => (
           <Card icons={x.url} content={x.content} key={id} />

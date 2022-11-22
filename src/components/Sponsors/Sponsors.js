@@ -6,18 +6,18 @@ function Sponsors() {
     <>
     <section id="sponsors">
       <div className={styles.sponsors_container}>
-        <div className={styles.heading}>SPONSORS</div>
+        <div className={styles.heading} data-aos="fade-down">SPONSORS</div>
         <div className={styles.sponsors}>
-          <div className={styles.img}>
+          <div className={styles.img} data-aos="fade-left">
             <Image className={styles.img} src={sponsorImg} alt="" />
           </div>
-          <div className={styles.img}>
+          <div className={styles.img} data-aos="fade-right">
             <Image className={styles.img} src={sponsorImg} alt="" />
           </div>
-          <div className={styles.img}>
+          <div className={styles.img} data-aos="fade-left">
             <Image className={styles.img} src={sponsorImg} alt="" />
           </div>
-          <div className={styles.img}>
+          <div className={styles.img} data-aos="fade-right">
             <Image className={styles.img} src={sponsorImg} alt="" />
           </div>
         </div>

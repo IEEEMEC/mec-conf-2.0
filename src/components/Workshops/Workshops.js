@@ -12,7 +12,7 @@ function Workshops() {
     <section id="workshops">
       <div className={styles.workshops_container}>
         
-        <div className={styles.workshops}>
+        <div className={styles.workshops} data-aos="fade-down">
           WORKSHOPS & <span className={styles.workshops_1}>TUTORIALS</span>
         </div>
         <div className={styles.cards}>

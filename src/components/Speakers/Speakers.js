@@ -6,7 +6,7 @@ function Speakers() {
     <>
     <section id="speakers">
       <div className={styles.speakers_container}>
-        <div className={styles.speakers}>
+        <div className={styles.speakers} data-aos="fade-down">
           EVENT <span className={styles.speakers_1}>SPEAKERS</span>
         </div>
         <div className={styles.speakers_content}>
@@ -14,7 +14,7 @@ function Speakers() {
           <div className={styles.speakers_list}>
             {speakerData.map((speaker) => {
               return (
-                <div key={speaker.id} className={styles.speaker}>
+                <div key={speaker.id} className={styles.speaker} data-aos="fade-up">
                   <div className={styles.speaker_image}>
                     <Image src={speaker.image} alt={speaker.name} className={styles.speaker_image} />
                   </div>

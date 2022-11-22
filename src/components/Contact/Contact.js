@@ -6,7 +6,7 @@ function Contact() {
     <>
       <section id="contact">
         <div className={styles.contact_container}>
-          <div className={styles.contact}>CONTACT</div>
+          <div className={styles.contact} data-aos="fade-down">CONTACT</div>
           <div className={styles.contact_cards}>
             {contactData.map((contact) => {
               return <ContactCard key={contact.id} id={contact.id} />;

@@ -1,3 +1,4 @@
+import React,{ useEffect } from "react";
 import styles from "../styles/Home.module.css";
 import Head from "next/head";
 import About from "../components/About/About";
@@ -14,8 +15,12 @@ import Speakers from "../components/Speakers/Speakers";
 import Sponsors from "../components/Sponsors/Sponsors";
 import Timeline from "../components/Timeline/Timeline";
 import Workshops from "../components/Workshops/Workshops";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
 export default function Home() {
+  useEffect(() => {
+    AOS.init({offset: 120,delay: 0,duration: 1000});
+  })
   return (
     <>
       <Head>

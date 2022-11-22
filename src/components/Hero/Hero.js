@@ -7,24 +7,24 @@ function Hero() {
     <>
       <section id="home">
         <div className={styles.hero}>
-          <div className={styles.logos_wrapper}>
+          <div className={styles.logos_wrapper} data-aos="fade-down">
             <Image src={logos} alt="logos" className={styles.logos} />
           </div>
           <div className={styles.hero_content}>
-            <div className={styles.hero_left}>
+            <div className={styles.hero_left} data-aos="fade-right">
               <div className={styles.date}>26</div>
               <div className={styles.date}>27</div>
               <div className={styles.divider}></div>
               <div className={styles.month}>NOV</div>
               <div className={styles.year}>2022</div>
             </div>
-            <div className={styles.hero_center}>
+            <div className={styles.hero_center} data-aos="fade-up">
               <div className={styles.center_text}>PRESENTS</div>
               <div className={styles.logo}>
                 <Image src={logo} alt="" className={styles.logo} />
               </div>
             </div>
-            <div className={styles.hero_right}>
+            <div className={styles.hero_right} data-aos="fade-left">
               <div>
                 <div className={styles.right_text}>BUY</div>
                 <div className={styles.right_text}>TICKETS</div>
