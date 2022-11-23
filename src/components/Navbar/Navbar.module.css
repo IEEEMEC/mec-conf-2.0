@@ -153,11 +153,11 @@
 }
 @media (min-width:1068px) and (max-width:1250px) {
   .navbar_item {
-    font-size: 13px;
+    font-size: 12px;
     line-height: 10px;
   }
   .navbar_item_active {
-    font-size: 13px;
+    font-size: 12px;
     line-height: 15px;
   }
   

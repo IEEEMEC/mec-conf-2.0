@@ -121,6 +121,19 @@ function Navbar() {
           SPONSORS
         </Link>
         <Link
+          to="timeline"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+          activeClass="navbar_item_active"
+          className={
+            styles.navbar_item
+          }
+        >
+          TIMELINE
+        </Link>
+        <Link
           to="clubs"
           spy={true}
           smooth={true}
@@ -314,6 +327,22 @@ function Navbar() {
                 }
               >
                 SPONSORS
+              </Link>
+              <Link
+                to="timeline"
+                onClick={() => {
+                  handleDrawerClose();
+                }}
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+                activeClass="navbar_item_active"
+                className={
+                  styles.navbar_item
+                }
+              >
+                TIMELINE
               </Link>
               <Link
                 to="clubs"
